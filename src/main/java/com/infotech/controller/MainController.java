@@ -17,6 +17,7 @@ import com.infotech.model.Game;
 import com.infotech.model.Member;
 import com.infotech.model.Team;
 import com.infotech.repository.MemberRepository;
+import com.infotech.model.Team;
 import com.infotech.repository.TeamRepository;
 import com.infotech.service.TeamServiceImpl;
 
