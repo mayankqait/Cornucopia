@@ -80,6 +80,11 @@ public class MainController {
 		return (List<Game>)teamServiceImpl.getGamesByTeam(team);
 	}
 	
+	@GetMapping(path="/findGamesByTeam11/{team1}")
+	public List<Game> getGamesByTeamName(@PathVariable("team") String team){
+		return (List<Game>)teamServiceImpl.getGamesByTeam(team);
+	}
+	
 	@GetMapping(path="/member/")
 	public List<Member> getAllMember(){
 		return (List<Member>)memberRepository.findAll();
