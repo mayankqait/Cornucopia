@@ -80,7 +80,7 @@ public class MainController {
 		return (List<Game>)teamServiceImpl.getGamesByTeam(team);
 	}
 	
-	@GetMapping(path="/findGamesByTeam11/{team1}")
+	@GetMapping(path="/findGamesByTeam22/{team2}")
 	public List<Game> getGamesByTeamName(@PathVariable("team") String team){
 		return (List<Game>)teamServiceImpl.getGamesByTeam(team);
 	}
